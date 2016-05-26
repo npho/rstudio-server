@@ -17,6 +17,7 @@ RUN yum install https://download2.rstudio.org/rstudio-server-rhel-0.99.902-x86_6
 RUN export PATH=/usr/lib/rstudio-server/bin/:$PATH
 RUN useradd rstudio
 RUN echo "rstudio:rstudio" | chpasswd
+VOLUME /home/rstudio
 
 CMD exec /usr/lib/rstudio-server/bin/rserver --server-daemonize 0
 
