@@ -13,7 +13,7 @@ RUN rpm --import https://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-7
 RUN yum install epel-release -y \
  && yum install R -y
 
-RUN yum install https://download2.rstudio.org/rstudio-server-rhel-1.1.456-x86_64.rpm -y
+RUN yum install https://download2.rstudio.org/rstudio-server-rhel-1.1.463-x86_64.rpm -y
 RUN export PATH=/usr/lib/rstudio-server/bin/:$PATH
 RUN useradd rstudio
 RUN echo "rstudio:rstudio" | chpasswd
