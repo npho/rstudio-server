@@ -1,6 +1,6 @@
 # rstudio-server
 
-[![Build Status](https://api.travis-ci.com/npho/rstudio-server.svg?branch=master&status=passed)](https://api.travis-ci.com/npho/rstudio-server.svg?branch=master&status=passed)
+[![Build Status](https://api.travis-ci.com/npho/rstudio-server.svg?branch=master&status=passed)](https://travis-ci.com/github/npho/rstudio-server)
 
 CentOS container based deployment of RStudio server [[doc](https://rstudio.com/products/rstudio/download-server/redhat-centos/)].
 

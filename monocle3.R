@@ -6,7 +6,7 @@ install.packages("tidyverse")
 # https://cole-trapnell-lab.github.io/monocle3/docs/installation/
 
 # install Bioconductor
-if (!requireNamespace("BiocManager", quietly = TRUE))
+if (!requireNamespace("BiocManager", quietly=TRUE))
 install.packages("BiocManager")
 BiocManager::install(version="3.10")
 
