@@ -17,5 +17,6 @@ BiocManager::install(c('BiocGenerics', 'DelayedArray', 'DelayedMatrixStats',
 
 # install monocle3
 install.packages("devtools")
-devtools::install_github('cole-trapnell-lab/leidenbase')
-devtools::install_github('cole-trapnell-lab/monocle3')
+library(devtools)
+devtools::install_github('cole-trapnell-lab/leidenbase', ref='0.1.0')
+devtools::install_github('cole-trapnell-lab/monocle3', ref='0.2.2')
