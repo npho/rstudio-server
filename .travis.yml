@@ -4,7 +4,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t npho/rstudio-server .
+  - docker build -t npho/rstudio-server -f rstudio-server.Dockerfile .
 
 script:
   - docker run -d --name rstudio-server -p 80:8787 npho/rstudio-server
